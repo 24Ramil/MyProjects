@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WKDo07gU9S59vOE5EWZYhh+Mbk7aY7boCXbluazMpq4N9ecrbfp2wcO9LRn8MWnjVQZvB09VezhwrfI3ZwCXPQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\Desktop\\StepIt\\Project_work_C#\\Project_Work_Vocabulary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
