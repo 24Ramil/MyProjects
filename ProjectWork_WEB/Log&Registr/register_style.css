@@ -1,51 +1,46 @@
-
-
-
-.registration_container{
-  margin-left: 30%;
-  margin-top: 10%;
-  width: 650px;
-  height: 400px;
+.registration_container {
+  margin: 10% auto;
+  width: 350px;
+  height: 300px;
   background-color: #e0dadacb;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-
-.form_container{ 
+.form_container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-
-.main_text{
+.main_text {
   color: #4e88d5;
   text-align: center;
-  padding: 3%;
+  padding: 10px;
 }
-
 
 input {
-  width: 280px;
+  width: 250px;
   height: 30px;
-  margin-top: 5%;
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
-
-.btn_register{
+.btn_register {
   cursor: pointer;
-  margin-top: 10%;
-  width: 80px;
-  height: 30px;
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
   border-radius: 5px;
   color: white;
-  background-color:blue;
-  transition: color 0.8s ease;
+  background-color: blue;
+  transition: all 0.3s ease;
 }
 
-
-.btn_register:hover{
-  height: 35px;
-  width: 85px;
-  opacity: 0.6;
+.btn_register:hover {
+  background-color: #0056b3;
 }

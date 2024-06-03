@@ -7,13 +7,73 @@ html, body {
     background-color: rgb(211, 211, 211);
 }
 
+
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    margin-bottom: 20px; /* Добавляем отступ снизу */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.select-wrapper,
+.input-wrapper {
+    margin-bottom: 10px;
+}
+
+label {
+    color: #fff;
+}
+
+.select-wrapper select,
+.input-wrapper input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.select-wrapper select {
+    background-color: #555;
+    color: #fff;
+}
+
+.input-wrapper input[type="text"] {
+    background-color: #555;
+    color: #fff;
+}
+
+.select-wrapper select:focus,
+.input-wrapper input[type="text"]:focus {
+    outline: none;
+    background-color: #777;
+}
+
+
+
+
+
+
+
 .price-container {
     display: flex;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin-top: 80px;
 }
+
 
 .price-container > div {
     background-color: white;
@@ -30,6 +90,7 @@ html, body {
     align-items: center;
     padding: 20px;
 }
+
 
 .price-container > div:first-child {
     margin-left: 0; 
